@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "79739b6371ae196a2dbc09fcce6306fec10e06d88fb8cfd02a2adbeda82cc0c2"
+build_start_time: [1680212601, 30054092]
+build_end_time: [1680212606, 395812034]
+inputs:
+  "/Users/ankursarda/Development/Projects/SocialApp/LocalRepo/Social-App/macos/Flutter/GeneratedPluginRegistrant.swift": [1680212578, 425905227]
+  "/Users/ankursarda/Development/Projects/SocialApp/LocalRepo/Social-App/macos/Runner/AppDelegate.swift": [1671141040, 0]
+  "/Users/ankursarda/Development/Projects/SocialApp/LocalRepo/Social-App/macos/Runner/MainFlutterWindow.swift": [1671141040, 0]
