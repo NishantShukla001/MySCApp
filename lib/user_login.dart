@@ -1,3 +1,4 @@
+import 'package:demo_app/Utility/platformUtils.dart';
 import 'package:demo_app/dashboard.dart';
 import 'package:demo_app/user_register.dart';
 import 'package:flutter/material.dart';
@@ -198,29 +199,32 @@ class _UserLoginState extends State<UserLogin> {
                             onPressed: () {},
                           ),
                         ),
-                        Container(
-                          width: 60,
-                          height: 60,
-                          decoration: BoxDecoration(
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(5.0)),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.grey.withOpacity(0.3),
-                                blurRadius: 30.0, // soften the shadow
-                                spreadRadius: 3.0, //extend the shadow
+                        isiOSPlatform()
+                            ? Container(
+                                width: 60,
+                                height: 60,
+                                decoration: BoxDecoration(
+                                  borderRadius: const BorderRadius.all(
+                                      Radius.circular(5.0)),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.grey.withOpacity(0.3),
+                                      blurRadius: 30.0, // soften the shadow
+                                      spreadRadius: 3.0, //extend the shadow
+                                    )
+                                  ],
+                                ),
+                                child: TextButton(
+                                  style: TextButton.styleFrom(
+                                    shape: const CircleBorder(),
+                                    backgroundColor: Colors.white,
+                                  ),
+                                  child: Image.asset('graphics/apple.png',
+                                      width: 30),
+                                  onPressed: () {},
+                                ),
                               )
-                            ],
-                          ),
-                          child: TextButton(
-                            style: TextButton.styleFrom(
-                              shape: const CircleBorder(),
-                              backgroundColor: Colors.white,
-                            ),
-                            child: Image.asset('graphics/apple.png', width: 30),
-                            onPressed: () {},
-                          ),
-                        ),
+                            : Container(),
                       ],
                     ),
                   ),

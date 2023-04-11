@@ -80,6 +80,42 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "google_identity_services_web",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/google_sign_in-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_android",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "google_sign_in_ios",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "http",
       "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/http-0.13.5",
       "packageUri": "lib/",
@@ -186,6 +222,12 @@
       "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/provider-6.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/nshukla/.pub-cache/hosted/pub.dev/quiver-3.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "shared_preferences",
@@ -302,7 +344,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-04-05T18:25:38.743450Z",
+  "generated": "2023-04-11T04:57:26.421728Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }
