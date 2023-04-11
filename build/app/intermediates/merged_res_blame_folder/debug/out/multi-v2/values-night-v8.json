@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nshukla/Documents/Code/Flutter/A/Social-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/nshukla/Documents/Code/Flutter/A/MySCApp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/nshukla/Documents/Code/Flutter/A/Social-App/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/nshukla/Documents/Code/Flutter/A/MySCApp/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
